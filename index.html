@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Adeesha Dilmira | Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+<!-- ══ CURSOR GLOW ═══════════════════════════════════ -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ══ NAVBAR ════════════════════════════════════════ -->
+<nav class="nav" id="nav">
+  <a href="#home" class="nav-logo">AD<span>.</span></a>
+  <button class="nav-burger" id="navBurger"><i class="fas fa-bars"></i></button>
+  <ul class="nav-menu" id="navMenu">
+    <li><a href="#home"           class="nl">Home</a></li>
+    <li><a href="#about"          class="nl">About</a></li>
+    <li><a href="#education"      class="nl">Education</a></li>
+    <li><a href="#skills"         class="nl">Skills</a></li>
+    <li><a href="#projects"       class="nl">Projects</a></li>
+    <li><a href="#certifications" class="nl">Certificates</a></li>
+    <li><a href="#activities"     class="nl">Activities</a></li>
+    <li><a href="#contact"        class="nl contact-btn">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ══ HERO ══════════════════════════════════════════ -->
+<section class="hero" id="home">
+  <div class="hero-noise"></div>
+
+  <!-- Geometric decorations -->
+  <div class="hero-decor" aria-hidden="true">
+    <!-- Glowing dots -->
+    <span class="hd-dot hd-d1"></span>
+    <span class="hd-dot hd-d2"></span>
+    <span class="hd-dot hd-d3"></span>
+    <span class="hd-dot hd-d4"></span>
+    <span class="hd-dot hd-d5"></span>
+    <span class="hd-dot hd-d6"></span>
+    <span class="hd-dot hd-d7"></span>
+    <span class="hd-dot hd-d8"></span>
+    <!-- Rotating squares -->
+    <span class="hd-sq hd-s1"></span>
+    <span class="hd-sq hd-s2"></span>
+    <span class="hd-sq hd-s3"></span>
+    <span class="hd-sq hd-s4"></span>
+    <!-- Expanding rings -->
+    <span class="hd-ring hd-r1"></span>
+    <span class="hd-ring hd-r2"></span>
+    <span class="hd-ring hd-r3"></span>
+    <!-- Plus marks -->
+    <span class="hd-plus hd-p1">+</span>
+    <span class="hd-plus hd-p2">+</span>
+    <span class="hd-plus hd-p3">×</span>
+    <!-- Dashed circle -->
+    <span class="hd-dash hd-dc1"></span>
+  </div>
+
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-status"><span class="pulse"></span>Open to Opportunities</div>
+      <h1 class="hero-name">Adeesha<br><span>Dilmira.</span></h1>
+      <p class="hero-typed"><span id="typed"></span><span class="cur">_</span></p>
+      <p class="hero-bio">IT undergraduate passionate about building full-stack software solutions. I design and develop web applications, explore AI technologies, and grow through every project I build.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-solid">View Projects <i class="fas fa-arrow-right"></i></a>
+        <a href="#contact"  class="btn-line">Contact Me</a>
+        <a href="#" class="btn-ghost" download><i class="fas fa-download"></i> CV</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/adeesha-dilmira-okd" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/adeesha2003" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:adeeshadilmira2@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+94774160821" title="Phone"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-card">
+        <div class="hc-avatar-wrap">
+          <div class="hc-avatar"><img src="images/Profile image.jpg" alt="Adeesha Dilmira"/></div>
+          <div class="hc-online"><span class="pulse"></span></div>
+        </div>
+        <div class="hc-info">
+          <h3>O.K.D. Adeesha Dilmira</h3>
+          <p>BSc (Hons) IT · KDU · 3rd Year</p>
+        </div>
+        <div class="hc-stats">
+          <div><strong>19+</strong><span>Certs</span></div>
+          <div><strong>6</strong><span>Projects</span></div>
+          <div><strong>10+</strong><span>Skills</span></div>
+        </div>
+        <div class="hc-tags">
+          <span>Web Dev</span><span>Full-Stack</span><span>AI</span>
+        </div>
+        <div class="hc-uni"><i class="fas fa-university"></i> KDU, Sri Lanka</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll-hint"><span>Scroll</span><i class="fas fa-arrow-down"></i></div>
+</section>
+
+<!-- ══ ABOUT ══════════════════════════════════════════ -->
+<section class="sec" id="about">
+  <div class="wrap">
+    <div class="sec-label">Who I Am</div>
+    <h2 class="sec-title">About <em>Me</em></h2>
+    <div class="about-grid">
+
+      <div class="about-left reveal">
+        <div class="profile-box">
+          <div class="pb-top-bar"></div>
+          <div class="pb-avatar-wrap">
+            <div class="pb-avatar"><img src="images/Profile image.jpg" alt="Adeesha Dilmira"/></div>
+          </div>
+          <div class="pb-name">
+            <h3>O.K.D. Adeesha Dilmira</h3>
+            <span>IT Undergraduate · Web Developer</span>
+            <span class="pb-year"><i class="fas fa-graduation-cap"></i> BSc IT · KDU · 3rd Year</span>
+          </div>
+          <div class="pb-contacts">
+            <a href="mailto:adeeshadilmira2@gmail.com"><i class="fas fa-envelope"></i> adeeshadilmira2@gmail.com</a>
+            <a href="tel:+94774160821"><i class="fas fa-phone"></i> +94 77 416 0821</a>
+            <span><i class="fas fa-map-marker-alt"></i> Baddegama, Sri Lanka</span>
+            <a href="https://www.linkedin.com/in/adeesha-dilmira-okd" target="_blank"><i class="fab fa-linkedin"></i> adeesha-dilmira-okd</a>
+          </div>
+          <div class="pb-open">
+            <p>Open for</p>
+            <div class="pb-tags">
+              <span>Internships</span><span>Collaborations</span><span>Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-right reveal">
+        <p>I am an undergraduate in <strong>Information Technology</strong> at <strong>General Sir John Kotelawala Defence University (KDU)</strong>, currently in my 3rd year. I am passionate about software engineering, web development, and system design.</p>
+        <p>Through academic and personal projects, I have built full-stack web applications, management systems, and creative media projects. I enjoy learning new technologies through online certifications and applying them in practical work.</p>
+        <p>My focus areas are <strong>Full-Stack Web Development</strong>, <strong>Software Engineering</strong>, and <strong>AI/ML</strong>. I am a member of <strong>CSSL</strong> (Organising Committee) and <strong>IEEE</strong> at KDU.</p>
+        <div class="about-stats">
+          <div class="ast-item">
+            <div class="ast-icon"><i class="fas fa-certificate"></i></div>
+            <div><span class="ast-num">19+</span><p>Certificates</p></div>
+          </div>
+          <div class="ast-item">
+            <div class="ast-icon"><i class="fas fa-code"></i></div>
+            <div><span class="ast-num">6</span><p>Projects Built</p></div>
+          </div>
+          <div class="ast-item">
+            <div class="ast-icon"><i class="fas fa-layer-group"></i></div>
+            <div><span class="ast-num">10+</span><p>Technologies</p></div>
+          </div>
+          <div class="ast-item">
+            <div class="ast-icon"><i class="fas fa-globe"></i></div>
+            <div><span class="ast-num">2</span><p>Societies</p></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ EDUCATION ══════════════════════════════════════ -->
+<section class="sec sec-dark" id="education">
+  <div class="wrap">
+    <div class="sec-label">Academic Background</div>
+    <h2 class="sec-title">My <em>Education</em></h2>
+    <div class="tl">
+
+      <div class="tl-item reveal">
+        <div class="tl-marker tl-m-current"></div>
+        <div class="tl-content">
+          <div class="tl-head">
+            <div>
+              <span class="tl-period">Jan 2024 – Present</span>
+              <h3>BSc (Hons) Information Technology</h3>
+              <h4><i class="fas fa-university"></i> General Sir John Kotelawala Defence University</h4>
+            </div>
+            <span class="tl-badge current">Current</span>
+          </div>
+          <p>3rd year undergraduate. Active member of CSSL Organising Committee and IEEE.</p>
+          <div class="tl-chips"><span><i class="fas fa-users"></i> CSSL – Organising Committee</span><span><i class="fas fa-bolt"></i> IEEE Member</span></div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-head">
+            <div>
+              <span class="tl-period">Jul 2023 – Aug 2024</span>
+              <h3>Diploma in Information Technology</h3>
+              <h4><i class="fas fa-university"></i> ESOFT Metro Campus</h4>
+            </div>
+            <span class="tl-badge tl-merit">Merit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-head">
+            <div>
+              <span class="tl-period">Jan 2009 – Dec 2022</span>
+              <h3>G.C.E. O/L &amp; A/L – Physical Science Stream</h3>
+              <h4><i class="fas fa-school"></i> Christ Church Girls College, Galle</h4>
+            </div>
+          </div>
+
+          <!-- A/L first -->
+          <div class="results-block rb-al">
+            <div class="rb-title">
+              <i class="fas fa-graduation-cap"></i> G.C.E. Advanced Level
+              <span class="rb-badge rb-yellow">Physical Science</span>
+              <span class="rb-year">2022</span>
+            </div>
+            <div class="results-grid al-grid">
+              <div class="rg-item grade-c"><span class="subj">Combined Mathematics</span><span class="grade">C</span></div>
+              <div class="rg-item grade-c"><span class="subj">Chemistry</span><span class="grade">C</span></div>
+              <div class="rg-item grade-s"><span class="subj">Physics</span><span class="grade">S</span></div>
+            </div>
+          </div>
+
+          <!-- O/L second -->
+          <div class="results-block">
+            <div class="rb-title">
+              <i class="fas fa-star"></i> G.C.E. Ordinary Level
+              <span class="rb-badge rb-green">7A 2B</span>
+              <span class="rb-year">2019</span>
+            </div>
+            <div class="results-grid">
+              <div class="rg-item grade-a"><span class="subj">Sinhala</span><span class="grade">A</span></div>
+              <div class="rg-item grade-a"><span class="subj">English</span><span class="grade">A</span></div>
+              <div class="rg-item grade-a"><span class="subj">Mathematics</span><span class="grade">A</span></div>
+              <div class="rg-item grade-a"><span class="subj">Buddhism</span><span class="grade">A</span></div>
+              <div class="rg-item grade-a"><span class="subj">Info. Technology</span><span class="grade">A</span></div>
+              <div class="rg-item grade-a"><span class="subj">Tamil</span><span class="grade">A</span></div>
+              <div class="rg-item grade-a"><span class="subj">Sinhala Literature</span><span class="grade">A</span></div>
+              <div class="rg-item grade-b"><span class="subj">History</span><span class="grade">B</span></div>
+              <div class="rg-item grade-b"><span class="subj">Science</span><span class="grade">B</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ SKILLS ════════════════════════════════════════ -->
+<section class="sec" id="skills">
+  <div class="wrap">
+    <div class="sec-label">What I Work With</div>
+    <h2 class="sec-title">My <em>Skills</em></h2>
+
+    <!-- HARD SKILLS -->
+    <div class="sk-section-label reveal">
+      <span class="sk-section-pill hard"><i class="fas fa-code"></i> Hard Skills</span>
+      <span class="sk-section-line"></span>
+    </div>
+    <div class="sk-cat-grid">
+
+      <div class="sk-cat-card sk-c-purple reveal">
+        <div class="scc-head">
+          <span class="scc-icon"><i class="fab fa-html5"></i></span>
+          <span class="scc-label">Frontend Development</span>
+        </div>
+        <div class="scc-tags">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React.js</span>
+          <span>Bootstrap</span><span>jQuery</span><span>UI/UX Design</span>
+        </div>
+      </div>
+
+      <div class="sk-cat-card sk-c-blue reveal">
+        <div class="scc-head">
+          <span class="scc-icon"><i class="fab fa-node-js"></i></span>
+          <span class="scc-label">Backend Development</span>
+        </div>
+        <div class="scc-tags">
+          <span>Node.js</span><span>Express.js</span><span>PHP</span>
+          <span>REST API</span><span>API Integration</span><span>Authentication</span>
+        </div>
+      </div>
+
+      <div class="sk-cat-card sk-c-teal reveal">
+        <div class="scc-head">
+          <span class="scc-icon"><i class="fas fa-database"></i></span>
+          <span class="scc-label">Database</span>
+        </div>
+        <div class="scc-tags">
+          <span>MongoDB</span><span>MongoDB Atlas</span><span>MySQL</span><span>SQL</span>
+        </div>
+      </div>
+
+      <div class="sk-cat-card sk-c-purple reveal">
+        <div class="scc-head">
+          <span class="scc-icon"><i class="fas fa-terminal"></i></span>
+          <span class="scc-label">Programming Languages</span>
+        </div>
+        <div class="scc-tags">
+          <span>JavaScript</span><span>Java</span><span>Python</span>
+          <span>C#</span><span>PHP</span><span>OOP</span>
+        </div>
+      </div>
+
+      <div class="sk-cat-card sk-c-blue reveal">
+        <div class="scc-head">
+          <span class="scc-icon"><i class="fas fa-wrench"></i></span>
+          <span class="scc-label">Development Tools</span>
+        </div>
+        <div class="scc-tags">
+          <span>Git &amp; GitHub</span><span>VS Code</span><span>Visual Studio</span>
+          <span>Postman</span><span>Netlify</span><span>Render</span>
+          <span>XAMPP</span><span>Android Studio</span>
+        </div>
+      </div>
+
+      <div class="sk-cat-card sk-c-teal reveal">
+        <div class="scc-head">
+          <span class="scc-icon"><i class="fas fa-brain"></i></span>
+          <span class="scc-label">AI &amp; Data Skills</span>
+        </div>
+        <div class="scc-tags">
+          <span>Artificial Intelligence</span><span>Machine Learning</span>
+          <span>Prompt Engineering</span><span>Data Analysis</span>
+        </div>
+      </div>
+
+      <div class="sk-cat-card sk-c-blue reveal">
+        <div class="scc-head">
+          <span class="scc-icon"><i class="fas fa-network-wired"></i></span>
+          <span class="scc-label">Networking</span>
+        </div>
+        <div class="scc-tags">
+          <span>Network Fundamentals</span><span>Routing &amp; Switching</span>
+          <span>IP Addressing</span><span>Network Security</span>
+        </div>
+      </div>
+
+      <div class="sk-cat-card sk-c-violet reveal">
+        <div class="scc-head">
+          <span class="scc-icon"><i class="fas fa-palette"></i></span>
+          <span class="scc-label">Design Tools</span>
+        </div>
+        <div class="scc-tags">
+          <span>Figma</span><span>Photoshop</span><span>Illustrator</span>
+          <span>Premiere Pro</span><span>After Effects</span><span>Blender</span><span>Maya</span>
+        </div>
+      </div>
+
+      <div class="sk-cat-card sk-c-purple reveal">
+        <div class="scc-head">
+          <span class="scc-icon"><i class="fas fa-microchip"></i></span>
+          <span class="scc-label">IT Knowledge</span>
+        </div>
+        <div class="scc-tags">
+          <span>Software Engineering</span><span>Computer Hardware</span>
+          <span>Network Technology</span><span>Microsoft Office</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SOFT SKILLS -->
+    <div class="sk-section-label reveal" style="margin-top:2.8rem">
+      <span class="sk-section-pill soft"><i class="fas fa-star"></i> Soft Skills</span>
+      <span class="sk-section-line"></span>
+    </div>
+    <div class="sk-soft-grid reveal">
+      <div class="sk-soft-card">
+        <div class="sk-soft-head">
+          <div class="sk-soft-icon"><i class="fas fa-users"></i></div>
+          <div>
+            <div class="sk-soft-label">Professional Skills</div>
+            <div class="sk-soft-desc">Interpersonal &amp; workplace competencies</div>
+          </div>
+        </div>
+        <div class="sk-soft-tags">
+          <span>Communication</span><span>Teamwork</span><span>Problem Solving</span>
+          <span>Time Management</span><span>Analytical Thinking</span><span>Leadership</span>
+          <span>Self Learning</span><span>Team Collaboration</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ PROJECTS ══════════════════════════════════════ -->
+<section class="sec sec-dark" id="projects">
+  <div class="wrap">
+    <div class="sec-label">What I've Built</div>
+    <h2 class="sec-title">My <em>Projects</em></h2>
+    <p class="sec-sub">Click any project card to view full details, features &amp; stack.</p>
+    <div class="proj-grid">
+
+      <div class="proj-card reveal" onclick="openModal('proj-quizhub')">
+        <div class="pc-accent pc-accent-mern"></div>
+        <div class="pc-num">01</div>
+        <div class="pc-top">
+          <span class="pc-period"><i class="fas fa-calendar-alt"></i> Mar – Apr 2026</span>
+          <div class="pc-icon mern"><i class="fas fa-question-circle"></i></div>
+        </div>
+        <div class="pc-body">
+          <span class="pc-tag"><i class="fas fa-university"></i> KDU · Group Project</span>
+          <h3>QuizHub</h3>
+          <p>Online Quiz Management System — full-stack MERN web app with role-based auth, auto evaluation, PDF reports, and performance analytics.</p>
+        </div>
+        <div class="pc-stack"><span>React</span><span>Node.js</span><span>MongoDB</span><span>Express</span></div>
+        <div class="pc-foot"><i class="fas fa-expand-alt"></i> <span>View Details</span></div>
+      </div>
+
+      <div class="proj-card reveal" onclick="openModal('proj-dsms')">
+        <div class="pc-accent pc-accent-blue"></div>
+        <div class="pc-num">02</div>
+        <div class="pc-top">
+          <span class="pc-period"><i class="fas fa-calendar-alt"></i> Jun – Nov 2025</span>
+          <div class="pc-icon blue"><i class="fas fa-car"></i></div>
+        </div>
+        <div class="pc-body">
+          <span class="pc-tag"><i class="fas fa-university"></i> KDU · Software Engineer</span>
+          <h3>Driving School Management System</h3>
+          <p>Full-stack web app to digitalise driving school operations — scheduling, payments, exams, analytics, and integrated chatbot.</p>
+        </div>
+        <div class="pc-stack"><span>JavaScript</span><span>Node.js</span><span>MongoDB</span><span>HTML/CSS</span></div>
+        <div class="pc-foot"><i class="fas fa-expand-alt"></i> <span>View Details</span></div>
+      </div>
+
+      <div class="proj-card reveal" onclick="openModal('proj-aurora')">
+        <div class="pc-accent pc-accent-purple"></div>
+        <div class="pc-num">03</div>
+        <div class="pc-top">
+          <span class="pc-period"><i class="fas fa-calendar-alt"></i> Jul – Oct 2025</span>
+          <div class="pc-icon purple"><i class="fas fa-film"></i></div>
+        </div>
+        <div class="pc-body">
+          <span class="pc-tag"><i class="fas fa-university"></i> KDU · Web Technologies</span>
+          <h3>Aurora Cinema</h3>
+          <p>Modern movie ticket booking website with interactive seat selection, user auth, and fully responsive design.</p>
+        </div>
+        <div class="pc-stack"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span></div>
+        <div class="pc-foot"><i class="fas fa-expand-alt"></i> <span>View Details</span></div>
+      </div>
+
+      <div class="proj-card reveal" onclick="openModal('proj-skills-int')">
+        <div class="pc-accent pc-accent-teal"></div>
+        <div class="pc-num">04</div>
+        <div class="pc-top">
+          <span class="pc-period"><i class="fas fa-calendar-alt"></i> Jun – Jul 2024</span>
+          <div class="pc-icon teal"><i class="fas fa-graduation-cap"></i></div>
+        </div>
+        <div class="pc-body">
+          <span class="pc-tag"><i class="fas fa-university"></i> ESOFT · Final Project</span>
+          <h3>Skills International Application</h3>
+          <p>Desktop student &amp; lecturer management system with secure authentication, exam login, and database integration.</p>
+        </div>
+        <div class="pc-stack"><span>C#</span><span>MySQL</span><span>Visual Studio</span></div>
+        <div class="pc-foot"><i class="fas fa-expand-alt"></i> <span>View Details</span></div>
+      </div>
+
+      <div class="proj-card reveal" onclick="openModal('proj-raptor')">
+        <div class="pc-accent pc-accent-orange"></div>
+        <div class="pc-num">05</div>
+        <div class="pc-top">
+          <span class="pc-period"><i class="fas fa-calendar-alt"></i> Aug – Oct 2024</span>
+          <div class="pc-icon orange"><i class="fas fa-video"></i></div>
+        </div>
+        <div class="pc-body">
+          <span class="pc-tag"><i class="fas fa-university"></i> KDU · Visual Computing</span>
+          <h3>Raptor – Brand Video</h3>
+          <p>Performance intro video for fictional car brand "Raptor" — 3D modelling, animation, and brand storytelling.</p>
+        </div>
+        <div class="pc-stack"><span>Blender</span><span>Adobe Premiere</span><span>Illustrator</span></div>
+        <div class="pc-foot"><i class="fas fa-expand-alt"></i> <span>View Details</span></div>
+      </div>
+
+      <div class="proj-card reveal" onclick="openModal('proj-game')">
+        <div class="pc-accent pc-accent-green"></div>
+        <div class="pc-num">06</div>
+        <div class="pc-top">
+          <span class="pc-period"><i class="fas fa-calendar-alt"></i> Jan – Mar 2023</span>
+          <div class="pc-icon green"><i class="fas fa-gamepad"></i></div>
+        </div>
+        <div class="pc-body">
+          <span class="pc-tag"><i class="fas fa-laptop-code"></i> Web Programming I</span>
+          <h3>JavaScript 2D Game</h3>
+          <p>2D sprite animation game built with pure vanilla HTML, CSS, and JavaScript — game loops, collision detection, and interactive gameplay.</p>
+        </div>
+        <div class="pc-stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <div class="pc-foot"><i class="fas fa-expand-alt"></i> <span>View Details</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ CERTIFICATIONS ════════════════════════════════ -->
+<section class="sec sec-dark" id="certifications">
+  <div class="wrap">
+    <div class="sec-label">My Learning Journey</div>
+    <h2 class="sec-title">Licences &amp; <em>Certifications</em></h2>
+    <p class="sec-sub">Click any certificate to view credential details &amp; verify.</p>
+    <div class="cv3-grid">
+
+          <div class="cv3-card cv3-gold" onclick="openModal('cert-techxhibit')">
+            <div class="cv3-icon"><i class="fas fa-trophy"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">BCS Student Chapter – KDU</span>
+              <h3>Innovation Driven Hardware &amp; Software Exhibition 2026</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Mar 2026</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-teal" onclick="openModal('cert-sliit-ai')">
+            <div class="cv3-icon"><i class="fas fa-microchip"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">SLIIT</span>
+              <h3>AI/ML Engineer – Stage 1</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Mar 2026</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-purple" onclick="openModal('cert-mora-server')">
+            <div class="cv3-icon"><i class="fas fa-server"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">University of Moratuwa</span>
+              <h3>Server Side Web Programming</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Jan 2026</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-purple" onclick="openModal('cert-mora-frontend')">
+            <div class="cv3-icon"><i class="fas fa-laptop-code"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">University of Moratuwa</span>
+              <h3>Front-End Web Development</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Dec 2025</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-blue" onclick="openModal('cert-student-membership')">
+            <div class="cv3-icon"><i class="fas fa-id-card"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">CSSL GenZ Chapter – KDU</span>
+              <h3>Certificate for Student Membership</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Mar 2025</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-gold" onclick="openModal('cert-best-performance')">
+            <div class="cv3-icon"><i class="fas fa-star"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">Christ Church Girls' College Baddegama</span>
+              <h3>Certificate for Best Performance</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Jan 2025</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-purple" onclick="openModal('cert-sega-it')">
+            <div class="cv3-icon"><i class="fas fa-desktop"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">Skills &amp; Education Group Awards</span>
+              <h3>Level 3 Diploma in Information Technology</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Aug 2024</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-purple" onclick="openModal('cert-mora-pm')">
+            <div class="cv3-icon"><i class="fas fa-tasks"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">University of Moratuwa</span>
+              <h3>Foundations of Project Management</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Oct 2023</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-purple" onclick="openModal('cert-mora-webdesign')">
+            <div class="cv3-icon"><i class="fas fa-paint-brush"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">University of Moratuwa</span>
+              <h3>Web Development – Web Design for Beginners</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Oct 2023</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-purple" onclick="openModal('cert-nibm-english')">
+            <div class="cv3-icon"><i class="fas fa-language"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">National Institute of Business Management (NIBM)</span>
+              <h3>Advanced Certificate in English</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Oct 2023</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-teal" onclick="openModal('cert-mora-python')">
+            <div class="cv3-icon"><i class="fab fa-python"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">University of Moratuwa</span>
+              <h3>Programming in Python – Python for Beginners</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Sep 2023</span>
+            </div>
+          </div>
+
+
+          <div class="cv3-card cv3-blue" onclick="openModal('cert-hp-ai')">
+            <div class="cv3-icon"><i class="fas fa-robot"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">HP LIFE</span>
+              <h3>AI for Business Professionals</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Mar 2026</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-blue" onclick="openModal('cert-cisco-ccna')">
+            <div class="cv3-icon"><i class="fas fa-network-wired"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">Cisco Networking Academy</span>
+              <h3>CCNA: Introduction to Networks</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Nov 2025</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-blue" onclick="openModal('cert-cisco-ai')">
+            <div class="cv3-icon"><i class="fas fa-wifi"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">Cisco Networking Academy</span>
+              <h3>Introduction to Modern AI</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Nov 2025</span>
+            </div>
+          </div>
+
+
+          <div class="cv3-card cv3-gold" onclick="openModal('cert-udemy-java')">
+            <div class="cv3-icon"><i class="fab fa-java"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">Udemy</span>
+              <h3>Java Programming</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Apr 2025</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-teal" onclick="openModal('cert-ua-ds')">
+            <div class="cv3-icon"><i class="fas fa-chart-line"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">UniAthena</span>
+              <h3>Basics of Data Science</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Feb 2025</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-blue" onclick="openModal('cert-coursera-excel')">
+            <div class="cv3-icon"><i class="fas fa-table"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">Coursera</span>
+              <h3>Introduction to Data Analysis using Microsoft Excel</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Feb 2025</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-purple" onclick="openModal('cert-alison-hr')">
+            <div class="cv3-icon"><i class="fas fa-users"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">Alison</span>
+              <h3>Diploma in Human Resources (HR)</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> 2025</span>
+            </div>
+          </div>
+
+          <div class="cv3-card cv3-teal" onclick="openModal('cert-ua-ml')">
+            <div class="cv3-icon"><i class="fas fa-brain"></i></div>
+            <div class="cv3-info">
+              <span class="cv3-org">UniAthena</span>
+              <h3>Basics in Machine Learning</h3>
+              <span class="cv3-date"><i class="fas fa-calendar-alt"></i> Feb 2023</span>
+            </div>
+          </div>
+
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ ACTIVITIES ════════════════════════════════════ -->
+<section class="sec sec-dark" id="activities">
+  <div class="wrap">
+    <div class="sec-label">Beyond the Classroom</div>
+    <h2 class="sec-title">Activities &amp; <em>Achievements</em></h2>
+    <div class="act-grid">
+
+      <div class="act-card reveal act-card-gold">
+        <div class="ac-top"><span class="ac-year">Mar 2026</span><div class="ac-icon ac-gold"><i class="fas fa-trophy"></i></div></div>
+        <h3>TECHXHiBiT 2.0 – Software Exhibition</h3>
+        <p>Participated in TECHXHiBiT 2.0 innovation exhibition at KDU. Presented the <strong>Driving School Management System</strong> to academics and industry professionals.</p>
+        <div class="ac-tags"><span>Software Presentation</span><span>Innovation</span><span>Team Collaboration</span></div>
+      </div>
+
+      <div class="act-card reveal act-card-blue">
+        <div class="ac-top"><span class="ac-year">2024 – Present</span><div class="ac-icon ac-blue"><i class="fas fa-laptop-code"></i></div></div>
+        <h3>CSSL – Organising Committee · KDU</h3>
+        <p>Active member of the Computer Society of Sri Lanka student chapter at KDU, contributing to organising technology events and activities.</p>
+        <div class="ac-tags"><span>Event Organising</span><span>Technology</span></div>
+      </div>
+
+      <div class="act-card reveal act-card-cyan">
+        <div class="ac-top"><span class="ac-year">2024 – Present</span><div class="ac-icon ac-cyan"><i class="fas fa-bolt"></i></div></div>
+        <h3>IEEE Student Member · KDU</h3>
+        <p>Member of the IEEE student branch at KDU — participating in technology workshops, professional development, and networking activities.</p>
+        <div class="ac-tags"><span>IEEE</span><span>Workshops</span><span>Networking</span></div>
+      </div>
+
+      <!-- School Activities -->
+      <div class="act-card reveal act-school">
+        <div class="ac-school-header">
+          <div class="ac-icon ac-school-icon"><i class="fas fa-school"></i></div>
+          <div>
+            <span class="ac-year">2009 – 2022</span>
+            <h3>Christ Church Girls College</h3>
+            <p class="ac-sub">School Activities &amp; Leadership Roles</p>
+          </div>
+        </div>
+        <!-- Prefect timeline (full-width) -->
+        <div class="asg-item asg-prefect">
+          <i class="fas fa-crown"></i>
+          <div>
+            <strong>School Prefect <span class="pf-years">10 Years</span></strong>
+            <div class="pf-track">
+              <div class="pf-step"><span class="pf-lvl">Primary</span><span class="pf-yr">2012 · 2013</span></div>
+              <span class="pf-arrow">›</span>
+              <div class="pf-step"><span class="pf-lvl">Junior</span><span class="pf-yr">2014 · 2016 · 2017</span></div>
+              <span class="pf-arrow">›</span>
+              <div class="pf-step"><span class="pf-lvl">Senior</span><span class="pf-yr">2018</span></div>
+              <span class="pf-arrow">›</span>
+              <div class="pf-step pf-step-top"><span class="pf-lvl">Super Senior</span><span class="pf-yr">2019 · 2020 · 2021 · 2022</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role cards grid -->
+        <div class="ac-roles-grid">
+
+          <div class="ac-role-card">
+            <div class="acr-header">
+              <div class="acr-icon acr-teal"><i class="fas fa-paw"></i></div>
+              <span class="role-badge role-director">Director</span>
+            </div>
+            <h4>LEO Club</h4>
+            <p>Director of Environment</p>
+            <span class="acr-sub"><i class="fas fa-globe"></i> Lions Clubs International</span>
+          </div>
+
+          <div class="ac-role-card">
+            <div class="acr-header">
+              <div class="acr-icon acr-blue"><i class="fas fa-atom"></i></div>
+              <span class="role-badge role-vp">Vice President</span>
+            </div>
+            <h4>Science Society</h4>
+            <p>Vice President</p>
+            <span class="acr-sub"><i class="fas fa-school"></i> CCGC · Science Dept.</span>
+          </div>
+
+          <div class="ac-role-card">
+            <div class="acr-header">
+              <div class="acr-icon acr-pink"><i class="fas fa-microphone"></i></div>
+              <span class="role-badge role-member">Member</span>
+            </div>
+            <h4>Media Unit</h4>
+            <p>Announcing - Sinhala </p>
+            <span class="acr-sub"><i class="fas fa-school"></i> School Media Team</span>
+          </div>
+
+          <div class="ac-role-card">
+            <div class="acr-header">
+              <div class="acr-icon acr-gold"><i class="fas fa-stamp"></i></div>
+              <span class="role-badge role-member">Member</span>
+            </div>
+            <h4>Philately Club</h4>
+            <p>Stamp Collection</p>
+            <span class="acr-sub"><i class="fas fa-stamp"></i> Philatelic Society</span>
+          </div>
+
+          <div class="ac-role-card">
+            <div class="acr-header">
+              <div class="acr-icon acr-purple"><i class="fas fa-moon"></i></div>
+              <span class="role-badge role-member">Member</span>
+            </div>
+            <h4>Astronomy Club</h4>
+            <p>Space &amp; Astronomy Studies</p>
+            <span class="acr-sub"><i class="fas fa-star"></i> Science of the Universe</span>
+          </div>
+
+          <div class="ac-role-card">
+            <div class="acr-header">
+              <div class="acr-icon acr-orange"><i class="fas fa-dharmachakra"></i></div>
+              <span class="role-badge role-member">Member</span>
+            </div>
+            <h4>Buddhist Association</h4>
+            <p>Buddhist Studies &amp; Values</p>
+            <span class="acr-sub"><i class="fas fa-om"></i> Cultural &amp; Spiritual</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ════════════════════════════════════════ -->
+<section class="sec" id="contact">
+  <div class="wrap">
+    <div class="sec-label">Let's Work Together</div>
+    <h2 class="sec-title">Get In <em>Touch</em></h2>
+    <p class="sec-sub">Open for internships, collaborations, and software projects.</p>
+    <div class="contact-grid">
+
+      <div class="contact-left reveal">
+        <div class="contact-info-card">
+          <h3>Contact Information</h3>
+          <p>Feel free to reach out — I respond within 24 hours.</p>
+          <div class="ci-list">
+            <div class="ci-item">
+              <div class="ci-ico ci-ico-purple"><i class="fas fa-envelope"></i></div>
+              <div><h4>Email</h4><a href="mailto:adeeshadilmira2@gmail.com">adeeshadilmira2@gmail.com</a></div>
+            </div>
+            <div class="ci-item">
+              <div class="ci-ico ci-ico-green"><i class="fas fa-phone"></i></div>
+              <div><h4>Phone</h4><a href="tel:+94774160821">+94 77 416 0821</a></div>
+            </div>
+            <div class="ci-item">
+              <div class="ci-ico ci-ico-blue"><i class="fab fa-linkedin"></i></div>
+              <div><h4>LinkedIn</h4><a href="https://www.linkedin.com/in/adeesha-dilmira-okd" target="_blank">adeesha-dilmira-okd</a></div>
+            </div>
+            <div class="ci-item">
+              <div class="ci-ico ci-ico-gray"><i class="fab fa-github"></i></div>
+              <div><h4>GitHub</h4><a href="https://github.com/adeesha2003" target="_blank">adeesha2003</a></div>
+            </div>
+            <div class="ci-item">
+              <div class="ci-ico ci-ico-red"><i class="fas fa-map-marker-alt"></i></div>
+              <div><h4>Location</h4><p>Baddegama, Sri Lanka</p></div>
+            </div>
+          </div>
+          <div class="ci-social-row">
+            <a href="https://www.linkedin.com/in/adeesha-dilmira-okd" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/adeesha2003" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:adeeshadilmira2@gmail.com"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-right reveal">
+        <div class="contact-form-card">
+          <h3><i class="fas fa-paper-plane"></i> Send a Message</h3>
+          <form class="cform" onsubmit="handleContact(event)">
+            <div class="cf-row">
+              <div class="cf-field">
+                <label>Your Name</label>
+                <input type="text" id="cf-name" placeholder="John Doe" required/>
+              </div>
+              <div class="cf-field">
+                <label>Your Email</label>
+                <input type="email" id="cf-email" placeholder="john@example.com" required/>
+              </div>
+            </div>
+            <div class="cf-field">
+              <label>Subject</label>
+              <input type="text" id="cf-subject" placeholder="Internship Opportunity / Project Collaboration"/>
+            </div>
+            <div class="cf-field">
+              <label>Message</label>
+              <textarea id="cf-message" rows="5" placeholder="Tell me about your project or opportunity…" required></textarea>
+            </div>
+            <button type="submit" class="cf-btn">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <p class="cf-note" id="cf-status"></p>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-inner">
+      <span class="foot-logo">AD<em>.</em></span>
+      <p>Designed &amp; Built by <strong>O.K.D. Adeesha Dilmira</strong></p>
+      <div class="foot-links">
+        <a href="https://www.linkedin.com/in/adeesha-dilmira-okd" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/adeesha2003" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:adeeshadilmira2@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p class="foot-copy">&copy; 2026 · All Rights Reserved</p>
+    </div>
+  </div>
+</footer>
+
+<a href="#home" class="back-top" id="backTop"><i class="fas fa-arrow-up"></i></a>
+
+<!-- ══ MODALS ════════════════════════════════════════ -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal()">
+  <div class="modal-box" id="modalBox" onclick="event.stopPropagation()">
+    <button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+    <div class="modal-content" id="modalContent"></div>
+  </div>
+</div>
+
+<!-- ══ MODAL DATA ════════════════════════════════════ -->
+<script id="modalData" type="application/json">
+{
+  "proj-quizhub": {
+    "type": "project",
+    "title": "QuizHub – Online Quiz Management System",
+    "period": "Mar 2026 – Apr 2026",
+    "role": "Full-Stack Developer",
+    "subtitle": "General Sir John Kotelawala Defence University · Programming Frameworks",
+    "description": "QuizHub is a full-stack MERN web-based Quiz Management System. Lecturers create and manage quizzes, auto-evaluate answers, generate PDF reports, and monitor student performance. Students attempt quizzes and receive instant results. Built with 3-tier architecture for scalability and separation of concerns.",
+    "features": [
+      "Role-based authentication (Lecturer / Student)",
+      "Quiz creation, editing and management",
+      "Automatic quiz evaluation and grading",
+      "PDF-based quiz generation and download",
+      "Performance tracking and analytics dashboard",
+      "Report generation per quiz and per student",
+      "Responsive UI design",
+      "Secure database integration"
+    ],
+    "stack": ["React", "Node.js", "Express.js", "MongoDB", "REST API", "JavaScript", "HTML5", "CSS3"],
+    "tools": ["GitHub", "Netlify", "Render", "Figma", "VS Code", "Postman"],
+    "github": "https://github.com/QuizHub48/quizhub-system",
+    "images": ["images/projects/quizhub_img_xx.png"],
+    "links": [
+      {"label": "Live Demo", "url": "https://rainbow-buttercream-c7218c.netlify.app/", "icon": "fas fa-external-link-alt"},
+      {"label": "System Demo (Video)", "url": "https://drive.google.com/file/d/13ColzYEl8YUbmY-W53zIag4QEHBpU0dY/view", "icon": "fas fa-play-circle"}
+    ]
+  },
+  "proj-dsms": {
+    "type": "project",
+    "title": "Driving School Management System (DSMS)",
+    "period": "Jun 2025 – Nov 2025",
+    "role": "Software Engineer",
+    "subtitle": "General Sir John Kotelawala Defence University · Software Engineering Group Project",
+    "description": "A full-stack web application designed to modernise and automate the daily operations of driving schools. Replaces paper-based processes with a centralised digital platform, improving efficiency, accuracy, and transparency.",
+    "features": [
+      "Student account management (registration, profile, progress tracking)",
+      "Instructor account management (availability, scheduling, monitoring)",
+      "Reservations & Scheduling – online lesson booking",
+      "Payment module – secure invoicing and payment tracking",
+      "Exams management – conduct and record results digitally",
+      "Analytics & Reports for management decisions",
+      "Integrated chatbot for guidance and notifications",
+      "Google Maps integration for lesson location tracking"
+    ],
+    "stack": ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
+    "tools": ["GitHub", "VS Code", "Postman"],
+    "github": "",
+    "images": ["images/projects/dsms_img_xx.png"],
+    "links": []
+  },
+  "proj-aurora": {
+    "type": "project",
+    "title": "Aurora Cinema – Movie Ticket Booking Website",
+    "period": "Jul 2025 – Oct 2025",
+    "role": "Frontend Developer",
+    "subtitle": "General Sir John Kotelawala Defence University · Web Technologies Group Project",
+    "description": "A web-based movie ticket booking platform that simulates a real-world cinema reservation system. Applies fundamental frontend development concepts and responsive web design techniques.",
+    "features": [
+      "User authentication system (Login, Signup, Forgot Password)",
+      "Interactive seat selection interface",
+      "Movie browsing with detailed UI",
+      "Booking history management",
+      "Fully responsive design for mobile and desktop"
+    ],
+    "stack": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Font Awesome"],
+    "tools": ["GitHub", "VS Code"],
+    "github": "https://github.com/chamathdilisha/Aurora-cinema-web",
+    "images": ["images/projects/aurora_img_xx.png"],
+    "links": []
+  },
+  "proj-skills-int": {
+    "type": "project",
+    "title": "Skills International Application",
+    "period": "Jun 2024 – Jul 2024",
+    "role": "Developer",
+    "subtitle": "ESOFT Metro Campus · Final Project",
+    "description": "A student and lecturer management system for Skills International School built with C# and MySQL. Students log in for exams and lecturers view results securely through an intuitive UI.",
+    "features": [
+      "User authentication and registration",
+      "Exam login module for students",
+      "Lecturer result viewing panel",
+      "MySQL database integration",
+      "Intuitive desktop UI design"
+    ],
+    "stack": ["C#", "MySQL", "Visual Studio", "XAMPP"],
+    "tools": ["Visual Studio", "XAMPP"],
+    "github": "https://github.com/adeesha2003/Skills_International_School",
+    "images": ["images/projects/skills_img_xx.png"],
+    "links": []
+  },
+  "proj-raptor": {
+    "type": "project",
+    "title": "Raptor – Performance Introduction Video",
+    "period": "Aug 2024 – Oct 2024",
+    "role": "Graphic Designer & Video Editor",
+    "subtitle": "General Sir John Kotelawala Defence University · Visual Computing Group Project",
+    "description": "A performance intro video for 'Raptor,' a fictional car brand 'Quorra'. Acted as in-house graphic design team, showcasing the car's power, design, and brand identity through creative visual storytelling.",
+    "features": [
+      "Promotional video for brand identity",
+      "3D modelling and visualisation",
+      "Video editing and post-production",
+      "Marketing-focused visual storytelling",
+      "Teamwork and project coordination"
+    ],
+    "stack": ["Adobe Premiere Pro", "Adobe Illustrator", "Blender"],
+    "tools": ["Adobe Creative Suite", "Blender"],
+    "github": "",
+    "images": ["images/projects/raptor_img_xx.png"],
+    "links": []
+  },
+  "proj-game": {
+    "type": "project",
+    "title": "JavaScript 2D Sprite Game",
+    "period": "Jan 2023 – Mar 2023",
+    "role": "Game Developer",
+    "subtitle": "Web Programming I",
+    "description": "A 2D sprite animation game built entirely with vanilla HTML, CSS, and JavaScript. Demonstrates core web game development concepts including game loops, sprite animation, and real-time collision detection.",
+    "features": [
+      "Sprite-based character animation",
+      "Game loop and frame management",
+      "Collision detection system",
+      "Interactive gameplay mechanics",
+      "Pure vanilla JavaScript – no libraries"
+    ],
+    "stack": ["HTML5", "CSS3", "JavaScript", "Canvas API"],
+    "tools": ["VS Code", "GitHub"],
+    "github": "",
+    "images": ["images/projects/game_img_xx.png"],
+    "links": [
+      {"label": "Watch on YouTube", "url": "https://youtu.be/0HLZLPxG5h4?si=loTunwEx0UW1Ct0l", "icon": "fab fa-youtube"}
+    ]
+  },
+  "cert-nibm-english": {
+    "type": "cert",
+    "title": "Advanced Certificate in English",
+    "org": "National Institute of Business Management (NIBM)",
+    "category": "Language",
+    "date": "Feb 2023 – Aug 2023",
+    "description": "Advanced Certificate in English from NIBM covering advanced grammar, business writing, communication skills, and professional English proficiency. Completed with Merit.",
+    "skills": ["Advanced English", "Business Communication", "Professional Writing", "Communication Skills"],
+    "images": ["images/certificates/Advanced Certificate Course in English.jpg"],
+    "links": []
+  },
+  "cert-techxhibit": {
+    "type": "cert",
+    "title": "Innovation Driven Hardware & Software Exhibition 2026",
+    "org": "BCS Student Chapter – KDU",
+    "category": "Achievement",
+    "date": "March 2026",
+    "description": "Certificate of Participation in TECHXHiBiT 2.0, an innovation-driven hardware and software exhibition organised by the BCS Student Chapter at KDU. Presented the Driving School Management System.",
+    "skills": ["Software Presentation", "Innovation", "Team Collaboration", "System Demonstration"],
+    "images": ["images/certificates/Innovation_Driven_Hardware_Software_Exhibition.jpg"],
+    "links": []
+  },
+  "cert-hp-ai": {
+    "type": "cert",
+    "title": "AI for Business Professionals",
+    "org": "HP LIFE",
+    "category": "AI & Technology",
+    "date": "March 2026",
+    "description": "Completed the HP LIFE online course covering artificial intelligence applications for business, including understanding AI tools, responsible AI use, and business process automation.",
+    "skills": ["Artificial Intelligence", "Business Applications", "AI Ethics", "Digital Transformation"],
+    "images": ["images/certificates/AI_for_Business_Professionals.jpg"],
+    "links": []
+  },
+  "cert-sliit-ai": {
+    "type": "cert",
+    "title": "AI/ML Engineer – Stage 1",
+    "org": "SLIIT",
+    "category": "AI & Machine Learning",
+    "date": "March 2026",
+    "description": "Stage 1 certification in AI/ML engineering from SLIIT covering foundational machine learning concepts, Python for ML, and introductory deep learning.",
+    "skills": ["Machine Learning", "Python", "Deep Learning", "AI Engineering"],
+    "images": ["images/certificates/AIML_Engineer_Stage_1.png"],
+    "links": []
+  },
+  "cert-mora-server": {
+    "type": "cert",
+    "title": "Server Side Web Programming",
+    "org": "University of Moratuwa",
+    "category": "Web Development",
+    "date": "January 2026",
+    "description": "Completed server-side web programming certification covering Node.js, Express.js, REST APIs, database integration, and server deployment.",
+    "skills": ["Node.js", "Express.js", "REST APIs", "MongoDB", "Server Deployment"],
+    "images": ["images/certificates/Server Side Web Programming.jpg"],
+    "links": []
+  },
+  "cert-mora-frontend": {
+    "type": "cert",
+    "title": "Front-End Web Development",
+    "org": "University of Moratuwa",
+    "category": "Web Development",
+    "date": "December 2025",
+    "description": "Completed Front-End Web Development certification covering HTML5, CSS3, JavaScript, responsive design, and modern frontend frameworks.",
+    "skills": ["HTML5", "CSS3", "JavaScript", "Responsive Design", "Bootstrap"],
+    "images": ["images/certificates/Front-End Web Development.jpg"],
+    "links": []
+  },
+  "cert-cisco-ai": {
+    "type": "cert",
+    "title": "Introduction to Modern AI",
+    "org": "Cisco Networking Academy",
+    "category": "AI & Networking",
+    "date": "November 2025",
+    "description": "Cisco Networking Academy course on modern artificial intelligence — covering AI fundamentals, neural networks, and practical AI applications.",
+    "skills": ["Artificial Intelligence", "Neural Networks", "AI Applications", "Cisco NetAcad"],
+    "images": ["images/certificates/Introduction to Modern AI.jpg"],
+    "links": []
+  },
+  "cert-cisco-ccna": {
+    "type": "cert",
+    "title": "CCNA: Introduction to Networks",
+    "org": "Cisco Networking Academy",
+    "category": "Networking",
+    "date": "November 2025",
+    "description": "Cisco Certified Network Associate (CCNA) – Introduction to Networks module covering network fundamentals, Ethernet, IP addressing, routing, and network security.",
+    "skills": ["Network Fundamentals", "IP Addressing", "Routing & Switching", "Network Security", "Cisco IOS"],
+    "images": ["images/certificates/CCNA Introduction to Networks.jpg"],
+    "links": []
+  },
+  "cert-udemy-java": {
+    "type": "cert",
+    "title": "Java Programming",
+    "org": "Udemy",
+    "category": "Programming",
+    "date": "April 2025",
+    "description": "Completed comprehensive Java programming course on Udemy covering OOP, data structures, collections, exception handling, and Java application development.",
+    "skills": ["Java", "OOP", "Data Structures", "Exception Handling"],
+    "images": ["images/certificates/Java Programming.jpg"],
+    "links": []
+  },
+  "cert-coursera-excel": {
+    "type": "cert",
+    "title": "Introduction to Data Analysis using Microsoft Excel",
+    "org": "Coursera",
+    "category": "Data Analysis",
+    "date": "February 2025",
+    "description": "Coursera certification covering data analysis fundamentals with Microsoft Excel — pivot tables, formulas, data visualisation, and basic statistical analysis.",
+    "skills": ["Microsoft Excel", "Data Analysis", "Data Visualisation", "Statistics"],
+    "images": ["images/certificates/Introduction to Data Analysis using Microsoft Excel.jpg"],
+    "links": []
+  },
+  "cert-alison-hr": {
+    "type": "cert",
+    "title": "Diploma in Human Resources (HR)",
+    "org": "Alison",
+    "category": "HR & Management",
+    "date": "2025",
+    "description": "Alison diploma covering human resources management — recruitment, employee development, performance management, and workplace communication.",
+    "skills": ["HR Management", "Recruitment", "Employee Development", "Performance Management"],
+    "images": ["images/certificates/Diploma in Human Resources (HR).jpg"],
+    "links": []
+  },
+  "cert-ua-ml": {
+    "type": "cert",
+    "title": "Basics in Machine Learning",
+    "org": "UniAthena",
+    "category": "Machine Learning",
+    "date": "February 2023",
+    "description": "UniAthena certification covering machine learning basics — supervised/unsupervised learning, algorithms, model evaluation, and practical ML concepts.",
+    "skills": ["Machine Learning", "Algorithms", "Model Evaluation", "Data Science"],
+    "images": ["images/certificates/Basics in Machine Learning.jpg"],
+    "links": []
+  },
+  "cert-ua-ds": {
+    "type": "cert",
+    "title": "Basics of Data Science",
+    "org": "UniAthena",
+    "category": "Data Science",
+    "date": "February 2025",
+    "description": "UniAthena certification covering data science fundamentals — data collection, processing, analysis, visualisation, and data-driven decision making.",
+    "skills": ["Data Science", "Data Analysis", "Data Visualisation", "Statistical Thinking"],
+    "images": ["images/certificates/Basics of Data Science.jpg"],
+    "links": []
+  },
+  "cert-sega-it": {
+    "type": "cert",
+    "title": "Level 3 Diploma in Information Technology",
+    "org": "Skills and Education Group Awards (SEGA)",
+    "category": "IT Diploma",
+    "date": "August 2024",
+    "description": "UK-accredited Level 3 Diploma in Information Technology from SEGA, covering software development, IT systems, networking, databases, and professional IT practice.",
+    "skills": ["Software Development", "IT Systems", "Networking", "Databases", "IT Practice"],
+    "images": ["images/certificates/Level 3 Diploma in Information Technology.jpg"],
+    "links": []
+  },
+  "cert-mora-python": {
+    "type": "cert",
+    "title": "Programming in Python – Python for Beginners",
+    "org": "University of Moratuwa",
+    "category": "Programming",
+    "date": "September 2023",
+    "description": "Completed Python programming certification from University of Moratuwa covering Python basics, data types, control flow, functions, and object-oriented programming.",
+    "skills": ["Python", "OOP", "Data Types", "Functions", "Control Flow"],
+    "images": ["images/certificates/Programming in Python – Python for Beginners.jpg"],
+    "links": []
+  },
+  "cert-mora-webdesign": {
+    "type": "cert",
+    "title": "Web Development – Web Design for Beginners",
+    "org": "University of Moratuwa",
+    "category": "Web Design",
+    "date": "October 2023",
+    "description": "Web Design for Beginners certification from University of Moratuwa covering HTML, CSS, responsive design, and modern web design principles.",
+    "skills": ["HTML", "CSS", "Responsive Design", "Web Design Principles"],
+    "images": ["images/certificates/Web Development – Web Design for Beginners.jpg"],
+    "links": []
+  },
+  "cert-mora-pm": {
+    "type": "cert",
+    "title": "Foundations of Project Management",
+    "org": "University of Moratuwa",
+    "category": "Management",
+    "date": "October 2023",
+    "description": "Project Management foundations certification covering project lifecycle, planning, scope management, risk management, and team collaboration methodologies.",
+    "skills": ["Project Management", "Project Planning", "Risk Management", "Scope Management", "Team Collaboration"],
+    "images": ["images/certificates/Foundations of Project Management.jpg"],
+    "links": []
+  },
+  "cert-best-performance": {
+    "type": "cert",
+    "title": "Certificate for Best Performance",
+    "org": "Christ Church Girls' College Baddegama",
+    "category": "Achievement",
+    "date": "January 2025",
+    "description": "Certificate of Excellence from Christ Church Girls' College Baddegama, awarded for Best Performance in the Physical Science Stream.",
+    "skills": ["Academic Excellence", "Science Stream", "Achievement"],
+    "images": ["images/certificates/Certificate for Best Performance.jpg"],
+    "links": []
+  },
+  "cert-student-membership": {
+    "type": "cert",
+    "title": "Certificate for Student Membership",
+    "org": "CSSL GenZ Chapter – Kotelawala Defence University",
+    "category": "Membership",
+    "date": "March 2025",
+    "description": "Certificate of Student Membership in the CSSL GenZ Chapter at General Sir John Kotelawala Defence University (KDU).",
+    "skills": ["CSSL", "Professional Development", "Technology Community"],
+    "images": [],
+    "links": []
+  }
+}
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
